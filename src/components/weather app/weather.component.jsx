@@ -142,14 +142,14 @@ const WeatherApp = () => {
 
       <div className="data-container">
         <div className="element">
-          <img src={humidity_icon} alt="" className="icon" />
+          <img src={humidity_icon} alt="humidityIcon" className="icon" />
           <div className="data">
             <div className="humidity-percent">{humidity} %</div>
             <div className="text">Humidity</div>
           </div>
         </div>
         <div className="element">
-          <img src={wind_icon} alt="" className="icon" />
+          <img src={wind_icon} alt="windIcon" className="icon" />
           <div className="data">
             <div className="wind-speed">{wind} km/h</div>
             <div className="text">Wind Speed</div>
